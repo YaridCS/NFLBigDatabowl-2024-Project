@@ -7,7 +7,7 @@ The UConn Team's project for the Big Data Bowl 2024 innovatively analyzes NFL de
 
 Important Notes:
 
-To get the overall dangers for a circle, create the circle inside circle interaction by calling interpret_play(game, play, week). Then call Get_Dangers_And_Centers(circle), which will return a list of the overall danger per frame on the play,followed be ballcarrier's location on every frame. To get the slicewise dangers, call Get_Dangers which resutns the same thing, except the first item it returns is a dictionary of slicewise dangers, rather than overall danger.
+To get the overall dangers for a circle, create the circle inside circle interaction by calling interpret_play(game, play, week). Then call Get_Dangers_And_Centers(circle), which will return a list of the overall danger per frame on the play, followed by ballcarrier's location on every frame. To get the slicewise dangers, call Get_Dangers which returns the same thing, except the first item it returns is a dictionary of slicewise dangers, rather than overall danger.
 
 Note that it assumes all the data provided to us by the competition is in a file called "Data". We couldn't upload this to github due to the platform's space constraints.
 
